@@ -18,7 +18,9 @@ This project uses two **pickle (`.pkl`) files** to store preprocessed data:
 1. **`movies_dict.pkl`** – Stores a dictionary containing movie details, such as movie titles and their corresponding IDs. This is loaded into a Pandas DataFrame for easy access.  
 2. **`similarity.pkl`** – Stores a precomputed similarity matrix, which helps in efficiently finding similar movies based on content-based filtering (e.g., cosine similarity).  
 
-By using these `.pkl` files, the recommendation system avoids recalculating the similarity matrix every time, making the app faster and more efficient.  
+By using these `.pkl` files, the recommendation system avoids recalculating the similarity matrix every time, making the app faster and more efficient.
+
+pickle files: https://northeastern-my.sharepoint.com/:f:/r/personal/lodh_y_northeastern_edu/Documents/MovieRecommendationSystem?csf=1&web=1&e=MwfaIy
 
 ## 🚀 How to Run  
 1. Clone the repository  
