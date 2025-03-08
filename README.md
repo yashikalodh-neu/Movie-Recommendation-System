@@ -20,6 +20,8 @@ This project uses two **pickle (`.pkl`) files** to store preprocessed data:
 
 By using these `.pkl` files, the recommendation system avoids recalculating the similarity matrix every time, making the app faster and more efficient.
 
+link for similarity.pkl zip file: https://drive.google.com/file/d/1X74snUyzgcY2cFrPZMn3ZBI8qoMuvBQq/view?usp=drive_link
+
 ## 🚀 How to Run  
 1. Clone the repository  
    ```bash
